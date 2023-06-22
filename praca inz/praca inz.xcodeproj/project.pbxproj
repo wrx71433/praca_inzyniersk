@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98FD82992A31EC6D00B76EE6 /* praca_inzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD82982A31EC6D00B76EE6 /* praca_inzApp.swift */; };
+		98FD829B2A31EC6D00B76EE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD829A2A31EC6D00B76EE6 /* ContentView.swift */; };
+		98FD829D2A31EC6F00B76EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FD829C2A31EC6F00B76EE6 /* Assets.xcassets */; };
+		98FD82A02A31EC6F00B76EE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FD829F2A31EC6F00B76EE6 /* Preview Assets.xcassets */; };
+		98FD82AA2A31EC6F00B76EE6 /* praca_inzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD82A92A31EC6F00B76EE6 /* praca_inzTests.swift */; };
+		98FD82B42A31EC6F00B76EE6 /* praca_inzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD82B32A31EC6F00B76EE6 /* praca_inzUITests.swift */; };
+		98FD82B62A31EC6F00B76EE6 /* praca_inzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD82B52A31EC6F00B76EE6 /* praca_inzUITestsLaunchTests.swift */; };
+		98FD82C32A31EE7900B76EE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD82C22A31EE7900B76EE6 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98FD82A62A31EC6F00B76EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FD828D2A31EC6D00B76EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FD82942A31EC6D00B76EE6;
+			remoteInfo = "praca inz";
+		};
+		98FD82B02A31EC6F00B76EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FD828D2A31EC6D00B76EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FD82942A31EC6D00B76EE6;
+			remoteInfo = "praca inz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98FD82952A31EC6D00B76EE6 /* praca inz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "praca inz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FD82982A31EC6D00B76EE6 /* praca_inzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = praca_inzApp.swift; sourceTree = "<group>"; };
+		98FD829A2A31EC6D00B76EE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98FD829C2A31EC6F00B76EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98FD829F2A31EC6F00B76EE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98FD82A52A31EC6F00B76EE6 /* praca inzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "praca inzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FD82A92A31EC6F00B76EE6 /* praca_inzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = praca_inzTests.swift; sourceTree = "<group>"; };
+		98FD82AF2A31EC6F00B76EE6 /* praca inzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "praca inzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FD82B32A31EC6F00B76EE6 /* praca_inzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = praca_inzUITests.swift; sourceTree = "<group>"; };
+		98FD82B52A31EC6F00B76EE6 /* praca_inzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = praca_inzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98FD82C22A31EE7900B76EE6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98FD82922A31EC6D00B76EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FD82A22A31EC6F00B76EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FD82AC2A31EC6F00B76EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98FD828C2A31EC6D00B76EE6 = {
+			isa = PBXGroup;
+			children = (
+				98FD82972A31EC6D00B76EE6 /* praca inz */,
+				98FD82A82A31EC6F00B76EE6 /* praca inzTests */,
+				98FD82B22A31EC6F00B76EE6 /* praca inzUITests */,
+				98FD82962A31EC6D00B76EE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98FD82962A31EC6D00B76EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98FD82952A31EC6D00B76EE6 /* praca inz.app */,
+				98FD82A52A31EC6F00B76EE6 /* praca inzTests.xctest */,
+				98FD82AF2A31EC6F00B76EE6 /* praca inzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98FD82972A31EC6D00B76EE6 /* praca inz */ = {
+			isa = PBXGroup;
+			children = (
+				98FD82982A31EC6D00B76EE6 /* praca_inzApp.swift */,
+				98FD829A2A31EC6D00B76EE6 /* ContentView.swift */,
+				98FD829C2A31EC6F00B76EE6 /* Assets.xcassets */,
+				98FD829E2A31EC6F00B76EE6 /* Preview Content */,
+				98FD82C22A31EE7900B76EE6 /* LoginViewController.swift */,
+			);
+			path = "praca inz";
+			sourceTree = "<group>";
+		};
+		98FD829E2A31EC6F00B76EE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98FD829F2A31EC6F00B76EE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98FD82A82A31EC6F00B76EE6 /* praca inzTests */ = {
+			isa = PBXGroup;
+			children = (
+				98FD82A92A31EC6F00B76EE6 /* praca_inzTests.swift */,
+			);
+			path = "praca inzTests";
+			sourceTree = "<group>";
+		};
+		98FD82B22A31EC6F00B76EE6 /* praca inzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98FD82B32A31EC6F00B76EE6 /* praca_inzUITests.swift */,
+				98FD82B52A31EC6F00B76EE6 /* praca_inzUITestsLaunchTests.swift */,
+			);
+			path = "praca inzUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98FD82942A31EC6D00B76EE6 /* praca inz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FD82B92A31EC6F00B76EE6 /* Build configuration list for PBXNativeTarget "praca inz" */;
+			buildPhases = (
+				98FD82912A31EC6D00B76EE6 /* Sources */,
+				98FD82922A31EC6D00B76EE6 /* Frameworks */,
+				98FD82932A31EC6D00B76EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "praca inz";
+			productName = "praca inz";
+			productReference = 98FD82952A31EC6D00B76EE6 /* praca inz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98FD82A42A31EC6F00B76EE6 /* praca inzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FD82BC2A31EC6F00B76EE6 /* Build configuration list for PBXNativeTarget "praca inzTests" */;
+			buildPhases = (
+				98FD82A12A31EC6F00B76EE6 /* Sources */,
+				98FD82A22A31EC6F00B76EE6 /* Frameworks */,
+				98FD82A32A31EC6F00B76EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FD82A72A31EC6F00B76EE6 /* PBXTargetDependency */,
+			);
+			name = "praca inzTests";
+			productName = "praca inzTests";
+			productReference = 98FD82A52A31EC6F00B76EE6 /* praca inzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98FD82AE2A31EC6F00B76EE6 /* praca inzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FD82BF2A31EC6F00B76EE6 /* Build configuration list for PBXNativeTarget "praca inzUITests" */;
+			buildPhases = (
+				98FD82AB2A31EC6F00B76EE6 /* Sources */,
+				98FD82AC2A31EC6F00B76EE6 /* Frameworks */,
+				98FD82AD2A31EC6F00B76EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FD82B12A31EC6F00B76EE6 /* PBXTargetDependency */,
+			);
+			name = "praca inzUITests";
+			productName = "praca inzUITests";
+			productReference = 98FD82AF2A31EC6F00B76EE6 /* praca inzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98FD828D2A31EC6D00B76EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					98FD82942A31EC6D00B76EE6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					98FD82A42A31EC6F00B76EE6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 98FD82942A31EC6D00B76EE6;
+					};
+					98FD82AE2A31EC6F00B76EE6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 98FD82942A31EC6D00B76EE6;
+					};
+				};
+			};
+			buildConfigurationList = 98FD82902A31EC6D00B76EE6 /* Build configuration list for PBXProject "praca inz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98FD828C2A31EC6D00B76EE6;
+			productRefGroup = 98FD82962A31EC6D00B76EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98FD82942A31EC6D00B76EE6 /* praca inz */,
+				98FD82A42A31EC6F00B76EE6 /* praca inzTests */,
+				98FD82AE2A31EC6F00B76EE6 /* praca inzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98FD82932A31EC6D00B76EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FD82A02A31EC6F00B76EE6 /* Preview Assets.xcassets in Resources */,
+				98FD829D2A31EC6F00B76EE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FD82A32A31EC6F00B76EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FD82AD2A31EC6F00B76EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98FD82912A31EC6D00B76EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FD82C32A31EE7900B76EE6 /* LoginViewController.swift in Sources */,
+				98FD829B2A31EC6D00B76EE6 /* ContentView.swift in Sources */,
+				98FD82992A31EC6D00B76EE6 /* praca_inzApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FD82A12A31EC6F00B76EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FD82AA2A31EC6F00B76EE6 /* praca_inzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FD82AB2A31EC6F00B76EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FD82B62A31EC6F00B76EE6 /* praca_inzUITestsLaunchTests.swift in Sources */,
+				98FD82B42A31EC6F00B76EE6 /* praca_inzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98FD82A72A31EC6F00B76EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FD82942A31EC6D00B76EE6 /* praca inz */;
+			targetProxy = 98FD82A62A31EC6F00B76EE6 /* PBXContainerItemProxy */;
+		};
+		98FD82B12A31EC6F00B76EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FD82942A31EC6D00B76EE6 /* praca inz */;
+			targetProxy = 98FD82B02A31EC6F00B76EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98FD82B72A31EC6F00B76EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98FD82B82A31EC6F00B76EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98FD82BA2A31EC6F00B76EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"praca inz/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ja.praca-inz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98FD82BB2A31EC6F00B76EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"praca inz/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ja.praca-inz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98FD82BD2A31EC6F00B76EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ja.praca-inzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/praca inz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/praca inz";
+			};
+			name = Debug;
+		};
+		98FD82BE2A31EC6F00B76EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ja.praca-inzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/praca inz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/praca inz";
+			};
+			name = Release;
+		};
+		98FD82C02A31EC6F00B76EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ja.praca-inzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "praca inz";
+			};
+			name = Debug;
+		};
+		98FD82C12A31EC6F00B76EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ja.praca-inzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "praca inz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98FD82902A31EC6D00B76EE6 /* Build configuration list for PBXProject "praca inz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FD82B72A31EC6F00B76EE6 /* Debug */,
+				98FD82B82A31EC6F00B76EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FD82B92A31EC6F00B76EE6 /* Build configuration list for PBXNativeTarget "praca inz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FD82BA2A31EC6F00B76EE6 /* Debug */,
+				98FD82BB2A31EC6F00B76EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FD82BC2A31EC6F00B76EE6 /* Build configuration list for PBXNativeTarget "praca inzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FD82BD2A31EC6F00B76EE6 /* Debug */,
+				98FD82BE2A31EC6F00B76EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FD82BF2A31EC6F00B76EE6 /* Build configuration list for PBXNativeTarget "praca inzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FD82C02A31EC6F00B76EE6 /* Debug */,
+				98FD82C12A31EC6F00B76EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98FD828D2A31EC6D00B76EE6 /* Project object */;
+}
